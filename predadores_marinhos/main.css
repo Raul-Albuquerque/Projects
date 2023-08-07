@@ -1,0 +1,162 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'Nanum Gothic', sans-serif;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: rgb(247, 247, 247);
+}
+
+header,
+footer {
+    background-color: rgb(75, 159, 238);
+    padding: 16px 0;
+    color: beige;
+}
+
+header h1,
+header nav li a,
+section h2,
+section h3,
+section h4,
+form button {
+    font-family: 'Bungee', cursive;
+    font-weight: normal;
+}
+
+header .container,
+section .container {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+header nav li {
+    display: inline;
+    margin-left: 10px;
+    font-size: 16px;
+}
+
+header nav li a {
+    text-decoration: none;
+    font-size: 16px;
+    color: beige;
+}
+
+header .contato {
+    margin-left: 26px;
+}
+
+.container {
+    max-width: 1280px;
+    width: 100%;
+    margin: 0 auto;
+    padding: 10px;
+    border-radius: 10px;
+}
+
+section {
+    padding: 30px 0 10px 0;
+}
+
+section .container {
+    background-color: #fff;
+    align-items: flex-start;
+}
+
+.container img {
+    width: 500px;
+    height: 360px;
+    margin: 10px;
+    border: #0c0b0b;
+    border-radius: 6px;
+}
+
+#orca img {
+    height: 368px;
+}
+
+section h2,
+section h4,
+section h3 {
+    color: rgb(75, 159, 238);
+}
+
+section h2,
+section h4,
+section p {
+    margin-left: 12px;
+}
+
+section p {
+    margin-bottom: 8px;
+}
+
+.redes-sociais img {
+    height: 24px;
+    width: 24px;
+}
+
+.redes-sociais li {
+    display: inline;
+}
+
+.redes-sociais a {
+    text-decoration: none;
+}
+
+#contato .container,
+form input,
+form textarea,
+form button {
+    display: block;  
+}
+
+.formas-contato {
+    display: flex;
+    justify-content: space-between;
+    margin: 0 12px;
+}
+
+.formas-contato p {
+    margin-left: 0px;
+}
+
+form input,
+form textarea,
+form button {
+    width: 300px;
+    margin-bottom: 12px;
+    padding: 12px;
+}
+
+form textarea {
+    height: 120px;
+    resize: none;
+}
+
+form button {
+    background-color: rgb(75, 159, 238);
+    color: beige;
+    border: none;
+}
+
+form button:hover {
+    background-color: rgb(108, 180, 248);
+    cursor: pointer;
+}
+
+form input:focus,
+form textarea:focus {
+    outline-color: rgb(75, 159, 238);
+}
+
+footer {
+    margin-top: 30px;
+}
+
+footer p {
+    margin-left: -10px;
+}
