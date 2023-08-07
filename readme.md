@@ -1,1 +1,1 @@
-Projetos desenvolvidos por mim.
+Projetos que desenvolvi.
