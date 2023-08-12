@@ -1,1 +1,1 @@
-Projetos que desenvolvi.
+Projetos que estou desenvolvendo.
