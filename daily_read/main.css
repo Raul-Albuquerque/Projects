@@ -1,0 +1,222 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Roboto', sans-serif;
+}
+
+html {
+    overflow-x: hidden;
+}
+
+body {
+    background-image: url('./images/jornal.jpg');
+}
+
+.container {
+    max-width: 1024px;
+    width: 100%;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+}
+
+header {
+    position: sticky;
+    left: 0;
+    top: 0;
+    z-index: 1;
+}
+
+header .container {
+    align-items: center;
+}
+
+header,
+footer {
+    background-color: rgb(226, 169, 10);
+    padding: 8px;
+}
+
+header h1,
+.container-sobre-nos h4 {
+    color: #fff;
+    font-family: 'Waiting for the Sunrise', cursive;
+    font-size: 42px;
+    text-transform: uppercase;
+}
+
+header img {
+    height: 70px;
+    margin-right: 6px;
+}
+
+header .logo {
+    display: flex;
+    align-items: center;
+}
+
+.menu-hamburger {
+    width: 30px;
+    cursor: pointer;
+}
+
+.menu-hamburger span {
+    width: 100%;
+    height: 2px;
+    display: block;
+    background-color: #fff;
+    margin-bottom: 3px;
+}
+
+nav {
+    display: none;
+    padding: 8px 0;
+    background-color: rgba(226, 169, 10, 0.4);
+}
+
+nav hr {
+    height: 2px;
+    background-color: #fff;
+    border: none;
+    margin: 16px 0;
+}
+
+nav .container {
+    display: flex;
+    justify-content: right;
+}
+
+nav li {
+    list-style: none;
+    display: inline;
+    margin-left: 12px;
+}
+
+nav li a {
+    text-decoration: none;
+    color: #fff;
+    text-transform: uppercase;
+    font-weight: bold;
+    font-size: 14px;
+}
+
+nav li a:hover{
+    background-color: #fff;
+    color: rgb(226, 169, 10);
+    padding: 6px;
+}
+
+#carousel-images {
+    margin-bottom: 16px;
+}
+
+section .container {
+    background-color: rgba(0, 0, 0, 0.6);
+    padding: 30px;
+    color: #fff;
+    display: block;
+    margin-bottom: 16px;
+    border-radius: 8px;
+}
+
+.container-sobre-nos {
+    display: flex;
+}
+
+.container-sobre-nos h4 {
+    font-size: 26px;
+}
+
+#sobre-nos img {
+    width: 50%;
+    margin-left: 20px;
+}
+
+.container hr {
+    width: 100%;
+    margin: 8px 0 36px 0;
+    height: 2px;
+    background-color: #fff;
+}
+
+.container-planos {
+    display: flex;
+    justify-content: space-between;
+}
+
+.plano {
+    border: 1px solid #fff;
+    width: 300px;
+    padding: 12px;
+}
+
+.plano hr {
+    width: 45%;
+    margin: 3px 0 16px 0;
+}
+
+section p {
+    margin-bottom: 18px;
+}
+
+.plano button,
+form button {
+    width: 100%;
+    padding: 8px;
+    text-transform: uppercase;
+    background-color: rgb(226, 169, 10);
+    color: #fff;
+    border: 3px solid rgb(226, 169, 10);
+    border-radius: 5px;
+    cursor: pointer;
+    font-weight: bold;
+}
+
+section h2 {
+    font-size: 20px;
+}
+
+section h4 {
+    margin-bottom: 8px;
+    font-size: 14px;
+    text-transform: uppercase;
+    font-weight: bold;
+}
+
+section form {
+    border: 1px solid #fff;
+    padding: 8px;
+    width: 100%;
+}
+
+.form-campo {
+    display: block;
+    width: 300px;
+    margin-bottom: 16px;
+}
+
+form label {
+    font-size: 14px;
+}
+
+form input {
+    width: 100%;
+    height: 30px;;
+    border-radius: 5px;
+    padding: 6px;
+}
+
+form input:focus {
+    outline: 3px solid rgb(226, 169, 10);
+    border: none;
+}
+
+form button {
+    width: 300px;
+    margin: 16px 0;
+}
+
+footer {
+    color: #fff;
+}
